@@ -8,6 +8,8 @@ def initialize(title,artist)
   @title=title
   @artist=artist
 end
-
+def self.all
+  @@all
+end
 end
 
