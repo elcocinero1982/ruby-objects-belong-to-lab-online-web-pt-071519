@@ -1,5 +1,5 @@
 class Song 
-attr_accessor :tilte, :assert_instance_of
+attr_accessor :tilte, :artist 
 
 
 end
