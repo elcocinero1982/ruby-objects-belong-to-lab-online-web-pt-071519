@@ -1,8 +1,12 @@
 class Song 
 attr_accessor :tilte, :artist 
-def initialize(title)
+@@all = []
+
+
+def initialize(title,artist)
   
   @title=title
+  @artist=artist
 end
 
 end
